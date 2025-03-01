@@ -52,5 +52,10 @@ document.getElementById('history-btn').addEventListener('click', () => {
     document.getElementById('history').remove('p')
 })
 
+document.getElementById('banner-btn').addEventListener('click', () => {
+    window.location.href = './main.html';  // Redirect to main.html
+});
+
+
 
 
