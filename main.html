@@ -33,32 +33,88 @@
           </h3>
         </div>
         <div class="text-center mt-4">
-          <button
-            class="px-10 py-5 bg-[#3752FD] font-medium rounded-lg text-white"
+          <a href="./index.html">
+            <button
+              id="back-to-desk-btn"
+              class="px-10 py-5 bg-[#3752FD] font-medium rounded-lg text-white"
+            >
+              Back to Desk
+            </button></a
           >
-            Back to Desk
-          </button>
         </div>
       </nav>
     </header>
     <main class="w-[1536px] mx-auto">
-      <h1 class="text-3xl text-black font-bold text-center">Blog</h1>
+      <h1 class="text-3xl text-black font-bold text-center">Blogs</h1>
       <section class="mt-6">
-        <div class="bg-white p-4 rounded-lg">
-          <p class="font-bold text-xl mb-3">
+        <div class="bg-white rounded-lg">
+          <p
+            class="font-bold text-xl mb-3 border-b border-dashed border-gray-400 p-4"
+          >
             Question-1: What are the different ways to select an element in the
             DOM?
           </p>
-          <br class="border-b border-black" />
-          <p class="text-xl text-[#00000080] mt-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Perferendis ratione excepturi soluta hic cum! Ab?
+          <p class="text-xl text-[#00000080] mt-3 p-4">
+            We can use getElementById() for ID selection,
+            getElementsByClassName() and getElementsByTagName() for class and
+            tag selection, and querySelector() or querySelectorAll() for
+            CSS-style selection
           </p>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="bg-white rounded-lg mt-7">
+          <p
+            class="font-bold text-xl mb-3 border-b border-dashed border-gray-400 p-4"
+          >
+            Question-2: What is the difference between innerHTML, innerText, and
+            textContent ?
+          </p>
+
+          <p class="text-xl text-[#00000080] mt-3 p-4">
+            InnerHTML retrieves or sets the HTML inside an element, innerText
+            retrieves only visible text, and textContent gets all text,
+            including hidden elements, without parsing HTML.
+          </p>
+        </div>
+        <div class="bg-white rounded-lg mt-7">
+          <p
+            class="font-bold text-xl mb-3 border-b border-dashed border-gray-400 p-4"
+          >
+            Question-3: What is event delegation in the DOM?
+          </p>
+
+          <p class="text-xl text-[#00000080] mt-3 p-4">
+            It allows handling events efficiently by attaching a listener to a
+            parent element and detecting which child triggered the event using
+            event.target, reducing the need for multiple event listeners.
+          </p>
+        </div>
+        <div class="bg-white rounded-lg mt-7">
+          <p
+            class="font-bold text-xl mb-3 border-b border-dashed border-gray-400 p-4"
+          >
+            Question-4: What is event bubbling in the DOM?
+          </p>
+
+          <p class="text-xl text-[#00000080] mt-3 p-4">
+            When an event occurs on a nested element, it first triggers on the
+            target element and then propagates upwards to its ancestors unless
+            event.stopPropagation() is used.
+          </p>
+        </div>
+        <div class="bg-white rounded-lg mt-7">
+          <p
+            class="font-bold text-xl mb-3 border-b border-dashed border-gray-400 p-4"
+          >
+            Question-5: How do you create, add, and remove elements using
+            JavaScript?
+          </p>
+
+          <p class="text-xl text-[#00000080] mt-3 p-4">
+            We can create elements using document.createElement(), add them with
+            appendChild(), and remove them using remove() or removeChild(),
+            modifying the DOM dynamically.
+          </p>
+        </div>
       </section>
     </main>
   </body>
